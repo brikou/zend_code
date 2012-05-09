@@ -1,0 +1,25 @@
+{
+    "name": "brikou/zend_code",
+    "type": "library",
+    "description": "",
+    "description": "Zend Framework Code Library",
+    "keywords": [
+        "zend framework",
+        "code"
+    ],
+    "homepage": "https://github.com/brikou/zend_code",
+    "license": "Zend Framework",
+    "authors": [
+        {
+            "name": "Zend Technologies USA, Inc.",
+            "homepage": "http://framework.zend.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "brikou/zend_loader": "*"
+    },
+    "autoload": {
+        "psr-0": { "Zend\\Code": "" }
+    }
+}
